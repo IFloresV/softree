@@ -32,7 +32,9 @@ const links = [
               class="flex flex-col items-center group"
               aria-label={link.label}
             >
-              <div class="text-[var(--white-icon)] hover:text-[var(--white)] transition duration-300 ease-in-out" innerHTML={link.icon} />
+              
+              <div class="text-[var(--white-icon)] hover:text-[var(--white)] transition duration-300 ease-in-out" set:html={link.icon} />
+
             </a>
           ))}
         </div>
