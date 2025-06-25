@@ -2,6 +2,7 @@
 import LogoWall from "../components/logoWall.astro";
 
 import MoleculesBg from "../React/MoleculesBg.tsx";
+import NeonLinesBg from "../React/NeonLinesBg.tsx";
 
 ---
 
@@ -27,7 +28,7 @@ import MoleculesBg from "../React/MoleculesBg.tsx";
 
         </p>
       </div>
-      <div class="flex justify-start gap-2 pt-3 md:pt-6">
+      <!-- <div class="flex justify-start gap-2 pt-3 md:pt-6">
         <a
     
           aria-label="GitHub"
@@ -77,10 +78,11 @@ import MoleculesBg from "../React/MoleculesBg.tsx";
             ></path>
           </svg>
         </a>
-      </div>
+      </div> -->
     </div>
     
     <MoleculesBg client:load />
+    <NeonLinesBg client:load />
 
     <LogoWall />
 <!-- 
